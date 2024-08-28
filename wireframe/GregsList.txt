@@ -1,0 +1,47 @@
+#MVP
+
+User must create an account by registering. Once registered, user will be shown homepage that shows all of the furniture posted on the site. User can click on a link with furniture type which will send them to the read one details page. Url will reflect the GregsList/(id). Read one page will display all attributes of the item, including the description which will not be displayed on homepage. Home button link will send user back to homepage. User can add a piece of furniture by clicking the add button on homepage. Validations will be not to leave any field blank. Users can edit/delete their own post by viewing read one page, ONLY if they are the ones who added it. Edit page will be similar to create, having validations for not leaving any fields blank. User can log out on the homepage with link in upper right corner. Which will send them back to login/reg index page. Users who are registered can use register form. 
+
+
+#Stack
+
+Java
+
+
+#GitHubProjectLink
+
+https://github.com/gregorywilliamking/GregsList.git
+
+
+#User CRUD on Item
+
+User will be able to create, update, delete, on a piece of furniture THEY added.
+All users will be able to read all/ one piece(s) of furniture.
+
+
+#Styling strategy
+
+Bootstrap
+
+#Validations CRUD
+
+All fields must not be blank when adding or editing.
+Cannot edit or delete an entry a user did not add. Only the user who added it. 
+
+#Validations Login/Reg
+
+First/Last names must be more than 2 letters
+passwords must match
+password must be more than 8 characters
+email must have valid format
+
+#Protected Route
+
+User cannot view homepage/ or any other pages aside from login/reg if not logged in. Redirects back to Login/Reg.
+
+
+
+#One-to-many relationship
+
+One user can have many pieces of furniture.
+
