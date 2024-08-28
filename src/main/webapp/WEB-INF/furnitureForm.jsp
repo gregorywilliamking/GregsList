@@ -40,7 +40,7 @@
 				<form:errors class="text-danger" path="description" />
 			</div>
 			<button class="btn btn-success">Submit</button>
-		</form:form>
+			</form:form>
 		</div>
 	</div>
 

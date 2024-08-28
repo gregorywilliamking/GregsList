@@ -36,7 +36,7 @@ public class Furniture {
 
 	@NotEmpty(message = "Description is required.")
 	private String description;
-
+	
 	@NotNull(message = "Phone Number is required.")
 	private Long phone;
 	

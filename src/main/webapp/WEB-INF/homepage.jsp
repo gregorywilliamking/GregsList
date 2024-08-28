@@ -20,6 +20,7 @@
 			Welcome,
 			<c:out value="${user.firstName}" />!
 		</h2>
+		<h5>GregsList, a place where people can off-load unwanted furniture to people in need.</h5>
 
 		<table class="table">
 			<tr>
@@ -36,7 +37,7 @@
 				</tr>
 			</c:forEach>
 		</table>
-		<a href="/new/furniture" class="btn btn-primary">Add Furniture</a>
+		<a href="/new/furniture" class="btn btn-warning">Add Furniture</a>
 	</div>
 
 </body>
