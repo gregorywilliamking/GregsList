@@ -20,7 +20,7 @@
 			Welcome,
 			<c:out value="${user.firstName}" />!
 		</h2>
-		<h5>GregsList, a place where people can off-load unwanted furniture to people in need.</h5>
+		<h5 class="text-secondary">GregsList, a place where people can off-load unwanted furniture to people in need.</h5>
 
 		<table class="table">
 			<tr>

@@ -14,7 +14,6 @@
 	<div class="container">
 		<h1 class="text-end text-primary">GregsList</h1>
 		<h2 class="text-center">Register</h2>
-		
 		<div class="form">
 			<form:form action="/register/user" method="post"
 				modelAttribute="newUser">
@@ -48,10 +47,8 @@
 				</div>
 			</form:form>
 			<h2 class="mb-3 mt-3 text-center">Login</h2>
-				
 				<div class="form-control mb-3 mt-3">
-				<form:form action="/login/user" method="post"
-				modelAttribute="newLogin">
+					<form:form action="/login/user" method="post" modelAttribute="newLogin">
 				<div class="form-control mb-3">
 					<form:label path="email">Email</form:label>
 					<form:errors class="text-danger" path="email" />
@@ -62,10 +59,10 @@
 					<form:errors class="text-danger" path="password" />
 					<form:input path="password" type="password" class="form-control" />
 				</div>
-				</form:form>
-			</div>
-			<div class="text-end">
+				<div class="text-end">
 					<button class="btn btn-success">Login</button>
+				</div>
+				</form:form>
 				</div>
 		</div>
 	</div>
