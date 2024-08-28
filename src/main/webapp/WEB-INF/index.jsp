@@ -62,11 +62,11 @@
 					<form:errors class="text-danger" path="password" />
 					<form:input path="password" type="password" class="form-control" />
 				</div>
-				<div class="text-end">
-					<button class="btn btn-success">Login</button>
-				</div>
 				</form:form>
 			</div>
+			<div class="text-end">
+					<button class="btn btn-success">Login</button>
+				</div>
 		</div>
 	</div>
 
